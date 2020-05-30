@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoXMLFilesCreation" verbose="1">
+  	<test name="FirstTest">
+		<parameter name="testParam" value="France" />
+		<classes>
+			<class name="tripping.test.TrippinSelTest" />
+		</classes>
+	</test>
+ 	<test name="SecondTest">
+		<parameter name="testParam" value="Germany" />
+		<classes>
+			<class name="tripping.test.TrippinSelTest" />
+		</classes>
+	</test>
+ <!--   	<test name="FifthTest">
+		<parameter name="testParam" value="China" />
+		<classes>
+			<class name="tripping.test.TrippinMock" />
+		</classes>
+	</test>
+ 	<test name="SixthTest">
+		<parameter name="testParam" value="Algeria" />
+		<classes>
+			<class name="tripping.test.TrippinMock" />
+		</classes>
+	</test> -->
+</suite>
